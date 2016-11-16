@@ -1,0 +1,10 @@
+hlms mat_Wood pbs
+{
+	diffuse 1 1 1
+	roughness 0.7
+
+	diffuse_map CaseDiff.png
+	specular_map CaseDiff.png
+	roughness_map CaseSpec.png
+	normal_map CaseNorm.png
+}

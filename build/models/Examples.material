@@ -1,0 +1,10 @@
+hlms Examples/Ninja pbs
+{
+	diffuse 1 1 1
+	roughness 0.0
+	spec 1 1 1
+
+    diffuse_map nskingr.jpg
+	normal_map nskingr_Norm.jpg
+
+}

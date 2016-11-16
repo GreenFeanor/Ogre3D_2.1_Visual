@@ -1,0 +1,60 @@
+
+// GLSL shaders
+vertex_program SkyPostprocess_vs_GLSL glsl
+{
+	source SkyPostprocess_vs.glsl
+    default_params
+    {
+        param_named_auto worldViewProj worldviewproj_matrix
+    }
+}
+
+fragment_program SkyPostprocess_ps_GLSL glsl
+{
+	source SkyPostprocess_ps.glsl
+	default_params
+	{
+		param_named skyCubemap int 0
+	}
+}
+
+// Unified definitions
+vertex_program SkyPostprocess_vs unified
+{
+	delegate SkyPostprocess_vs_GLSL
+}
+
+fragment_program SkyPostprocess_ps unified
+{
+	delegate SkyPostprocess_ps_GLSL
+}
+
+// Material definition
+material SkyPostprocess
+{
+	technique
+	{
+		pass
+		{
+			depth_check on
+			depth_write off
+
+			cull_hardware none
+
+			vertex_program_ref SkyPostprocess_vs
+			{
+			}
+
+			fragment_program_ref SkyPostprocess_ps
+			{
+			}
+
+			texture_unit
+			{
+				//Dummy command to set the gamma correction
+				//texture Sky.jpg gamma
+				cubic_texture Sky.png combinedUVW
+			}
+		}
+	}
+}

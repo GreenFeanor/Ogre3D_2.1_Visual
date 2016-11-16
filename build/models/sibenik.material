@@ -1,0 +1,122 @@
+
+hlms sibenik/Default pbs
+{
+	diffuse 0.698039 0.698039 0.698039
+	roghness 0.1
+}
+
+hlms sibenik/poplocenje pbs
+{
+	diffuse 0.65098 0.647059 0.596078
+	roghness 0.1
+	diffuse_map KAMEN320x240.jpg
+}
+
+hlms sibenik/kuce pbs
+{
+	diffuse 0.733333 0.729412 0.670588
+	roghness 0.1
+	diffuse_map KAMEN320x240.jpg
+}
+
+hlms sibenik/staklo_zuto pbs
+{
+	diffuse 0.498039 0.443137 0.00392157
+	roghness 0.1
+}
+
+hlms sibenik/kamen_zid_prozor pbs
+{
+	diffuse 0.733333 0.729412 0.670588
+roghness 0.1
+	diffuse_map texture KAMEN320x240.jpg
+}
+
+hlms sibenik/pod-rub pbs
+{
+	diffuse 0.733333 0.729412 0.670588
+roghness 0.1
+	diffuse_map KAMEN320x240.jpg
+}
+
+hlms sibenik/staklo_plavo pbs
+{
+	diffuse 0.0392157 0.0705882 0.392157
+	roghness 0.1
+}
+
+hlms sibenik/staklo_crveno pbs
+{
+	diffuse 0.439216 0.101961 0.0470588
+	roghness 0.1
+}
+
+hlms sibenik/sprljci pbs
+{
+	diffuse 0.784314 0.784314 0.784314
+	roghness 0.1
+}
+
+hlms sibenik/staklo_zeleno pbs
+{
+	diffuse 0.0313726 0.313726 0.0352941
+	roghness 0.1
+}
+
+hlms sibenik/rozeta pbs
+{
+	diffuse 0.733333 0.729412 0.670588
+	roghness 0.1
+	diffuse_map KAMEN-stup.jpg
+}
+
+hlms sibenik/kamen_zid_parape pbs
+{
+	diffuse 0.733333 0.729412 0.670588
+	roghness 0.1
+
+	diffuse_map KAMEN-stup.jpg
+}
+
+hlms sibenik/zid_vani pbs
+{
+	diffuse 0.733333 0.729412 0.670588
+	roghness 0.1
+	diffuse_map KAMEN320x240.jpg
+}
+
+hlms sibenik/glas pbs
+{
+	diffuse 1 1 1 0.5
+	roghness 0.1
+	scene_blend alpha_blend
+	depth_write off
+}
+
+hlms sibenik/pod pbs
+{
+	diffuse 0.733333 0.705882 0.670588
+	roghness 0.1
+	diffuse_map MRAMOR6X6.jpg
+}
+
+hlms sibenik/pod_tepih pbs
+{
+	diffuse 0.545098 0.219608 0.180392
+	roghness 0.1
+}
+
+hlms sibenik/stupovi pbs
+{
+	diffuse 0.733333 0.729412 0.670588
+	roghness 0.1
+	diffuse_map KAMEN-stup.jpg
+}
+
+hlms sibenik/kamen_zid pbs
+{
+	diffuse 0.733333 0.729412 0.670588
+	roghness 0.1
+	cull_mode none
+	diffuse_map KAMEN320x240.jpg
+}

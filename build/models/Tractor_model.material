@@ -1,0 +1,22 @@
+hlms Tractor_cabine pbs
+{
+	diffuse 1 1 1
+	roughness 0.0
+	spec 1 1 1
+
+    diffuse_map testDiffuse.jpg
+	//normal_map CaseDiff.jpg
+
+}
+
+hlms Tractor_retroviseurs pbs
+{
+	diffuse 1 1 1
+	roughness 0.0
+	spec 1 1 1
+
+    diffuse_map testDiffuse.jpg
+	//normal_map nskingr_Norm.jpg
+
+}
+

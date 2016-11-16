@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+a84ecbc55847b03432b2648ffcc216a6 CMakeFiles/OgreUpdateexe_automoc

@@ -1,0 +1,14 @@
+hlms damier pbs
+{
+
+	diffuse 1 1 1
+	specular 1 1 1
+	roughness 0.3
+	fresnel 1.55
+
+	diffuse_map testDiffuse.jpg
+	diffuse_offset_scale 1.0 0.5
+    normal_map testNormal.jpg
+	specular_map testDiffuse.jpg
+	roughness_map testSpecular2.jpg
+}
